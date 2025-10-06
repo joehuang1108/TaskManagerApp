@@ -57,5 +57,9 @@ public class Task {
         this.priority = priority;
     }
 
+    @Override
+    public String toString(){
+        return "[" + id + "] " + title + " (Due: " + deadline + ", " + status + ", " + priority + ")";
+    }
 
 }
